@@ -17,14 +17,14 @@ const Banner = () => {
           <motion.h1 variants={fadeIn
           ('up',.3)} initial="hidden" 
           whileInView={'show'} 
-          viewport={{once:false,amount:.7}} className='text-[45px] font-bold leading-[.8] lg:text-[80px]'> Mohammed <span>Ramadan</span> </motion.h1>
+          viewport={{once:false,amount:.7}} className='text-[45px] font-bold leading-[.8] lg:text-[60px]'> Mohammed <span>Ramadan</span> </motion.h1>
           <motion.div
           variants={fadeIn
             ('up',.5)} initial="hidden" 
             whileInView={'show'} 
             viewport={{once:false,amount:.7}}
           className='flex items-center'>
-            <span className='mr-4 text-[36px] lg:text-[50px] uppercase font-semibold leading-[2]'>i am a</span>
+            <span className='mr-4 text-[36px] lg:text-[30px] uppercase font-semibold leading-[2]'>i am a</span>
             <TypeAnimation 
               sequence={[
                 'Frontend',
@@ -33,7 +33,7 @@ const Banner = () => {
                 1000
               ]}
               speed={50}
-              className="text-gradient text-[36px] lg:text-[50px] font-semibold"
+              className="text-gradient text-[36px] lg:text-[30px] font-semibold"
               wrapper='span'
               repeat={Infinity}
             />
@@ -44,7 +44,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once:false,amount:.7}}
           className='mb-8 max-w-lg
-          mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam esse molestias nesciunt in sunt accusantium illo, minus provident quam suscipit earum quod alias perferendis dolores porro, placeat harum commodi!
+          mx-auto lg:mx-0 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam esse molestias nesciunt in sunt accusantium illo, minus provident quam suscipit earum quod alias perferendis dolores porro, placeat harum commodi!
           </motion.p>
           {/* contact me - button */}
           <ContactBtn/>
@@ -75,7 +75,7 @@ const Banner = () => {
           lg:before:w-96 lg:before:h-96 
           before:w-40 before:h-40 
           md:before:w-80 md:before:h-80 
-          before:bg-sky/40 before:z-50 before:rounded-full
+          before:bg-sky-600/40 before:z-50 before:rounded-full
           '>
           <Image src={img} alt="img" className='lg:w-96 lg:h-96
           md:w-80 md:h-80 
