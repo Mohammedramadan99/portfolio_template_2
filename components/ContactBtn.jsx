@@ -10,7 +10,7 @@ function ContactBtn() {
         viewport={{once:false,amount:.7}}
         className='flex max-w-max
         gap-x-6 items-center
-        mb-12 mx-auto lg:mx-0 '>
+        mb-12 mx-auto lg:mx-0 hover:btn-grad1'>
         <button className='btn btn-lg'>
             contact me
         </button>
