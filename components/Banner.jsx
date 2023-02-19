@@ -1,6 +1,6 @@
 'use client';
 import img from '../public/assets/me_1.png'
-import {FaGithub,FaYoutube,FaDribbble, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {TypeAnimation} from 'react-type-animation'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
