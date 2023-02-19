@@ -15,7 +15,7 @@ const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
-            className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
+            className="cursor-pointer rounded-full w-[60px] h-[60px] flex justify-center items-center">
           <BiHomeAlt />
           </Link>
           <Link 
@@ -23,7 +23,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
+            className="cursor-pointer rounded-full w-[60px] h-[60px] flex justify-center items-center">
             <BiUser />
           </Link>
           <Link 
@@ -31,7 +31,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
+            className="cursor-pointer rounded-full w-[60px] h-[60px] flex justify-center items-center">
             <BsClipboardData />
           </Link>
           <Link 
@@ -39,7 +39,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
+            className="cursor-pointer rounded-full w-[60px] h-[60px] flex justify-center items-center">
             <BsBriefcase />
           </Link>
           <Link 
@@ -47,7 +47,7 @@ const Nav = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
+            className="cursor-pointer rounded-full w-[60px] h-[60px] flex justify-center items-center">
             <BsBriefcase />
           </Link>
         </div>

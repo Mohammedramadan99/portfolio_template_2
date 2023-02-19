@@ -27,13 +27,19 @@ body{
   
   .gradient,
   .active {
-    background: linear-gradient(
-      92.23deg,
-      #08008A 21.43%,
-      #007fee 50.63%,
-      #0800c2 100%,
-      #1404f0 117.04%
-    );
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to left, #007fee, #1404f0);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: 100% 90px;
+    background-position: 0 -30px;
+    transition: all 0.5s linear;
+    display: flex;
+    align-items: center;
+    animation: fadein .5s linear;
   }
   
   .active {
@@ -73,7 +79,23 @@ body{
   }
   
 
-  // #ff56f6 21.43%,
-  //     #b936ee 50.63%,
-  //     #3bace2 100%,
-  //     #406aff 117.04%
+@keyframes fadein {
+  0%{
+    opacity: 0;
+    transform: scale(1);
+  }
+  50%{
+    opacity: .7;
+    transform: scale(1.2);
+  }
+  80%{
+    opacity: .5;
+    transform: scale(.7);
+
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+
+  }
+}
