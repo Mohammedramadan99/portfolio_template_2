@@ -3,6 +3,7 @@
 import Image from "next/image";
 import img_1 from '@/public/assets/Ecommerce.png'
 import img_2 from '@/public/assets/social_media.png'
+import img_3 from '@/public/assets/portfolio.png'
 import { fadeIn } from "@/variants";
 import {motion} from 'framer-motion'
 const Work = () => {
@@ -21,7 +22,7 @@ const Work = () => {
     },
     {
       name:"Portfolio",
-      image:img_2,
+      image:img_3,
       category:"Next.js",
       techs:["React.js","Next.js","Tailwind CSS","Typescript"]
     },

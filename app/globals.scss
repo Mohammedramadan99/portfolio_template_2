@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 
-body{
-  // overflow-y: hidden;
+
+::-webkit-scrollbar{
+  width: 0;
 }
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
 .btn {
     position: relative;
     display: inline-block;

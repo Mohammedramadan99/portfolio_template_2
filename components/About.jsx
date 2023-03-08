@@ -16,7 +16,7 @@ const About = () => {
        '>
         {/* image */}
         <motion.div 
-        className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-exclusion rounded-full bg-top"
+        className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-screen rounded-full bg-top"
         variants={fadeIn('right',.3)}
         initial='hidden'
         whileInView={'show'}
@@ -33,9 +33,11 @@ const About = () => {
          >
           <h2 className='h2 text-sky-400'>about me</h2>
           <h3 className='h3 mb-4'>
-          i&apos;m a freelance front-end developer with over 2 years of experience
+            freelance front-end developer with over 2 years of experience
           </h3>
-          <p className='mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ut animi? Odio asperiores deleniti iure quam animi tempore doloremque aliquam id suscipit reiciendis, accusamus modi quis aperiam unde aspernatur amet.</p>
+          <p className='mb-6 text-sm'>Self-motivated Frontend developer.
+Passionate and loving to learn and develop, I aspire to gain experiences and skills.
+I have a love of learning the latest technologies and being aware of technological trends.</p>
           {/* stats */}
           <div className="flex gap-x-6 lg:gap-x-10 mb-12">
             <div>

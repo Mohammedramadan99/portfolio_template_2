@@ -7,10 +7,10 @@ const Contact = () => {
           {/* text */}
           <div className='flex-1 flex justify-start items-center'>
             <div>
-              <h4 className='text-xl uppercase text-sky font-medium mb-2 tracking-wide'>
+              <h4 className='text-xl uppercase text-sky font-medium mb-2 tracking-wide text-gradient'>
                 get in touch
               </h4>
-              <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
+              <h2 className='text-[35px] text-gradient lg:text-[60px] leading-none mb-12'>
                 lets work <br/> together!
               </h2>
             </div>
